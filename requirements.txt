@@ -3,3 +3,5 @@ uvicorn
 gunicorn
 mangum
 requests
+bs4
+pprint
