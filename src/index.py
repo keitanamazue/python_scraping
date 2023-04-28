@@ -1,9 +1,9 @@
 
 from fastapi import FastAPI
-import urllib.parse
-import requests
-from bs4 import BeautifulSoup
-from pprint import pprint
+# import urllib.parse
+# import requests
+# from bs4 import BeautifulSoup
+# from pprint import pprint
 from mangum import Mangum
 
 
