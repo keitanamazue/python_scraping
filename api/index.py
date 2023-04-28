@@ -4,6 +4,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
+from mangum import Mangum
+
 
 app = FastAPI()
 
@@ -41,3 +43,6 @@ async def root():
             })
             
     return product_datas
+
+
+handler = Mangum(app)
