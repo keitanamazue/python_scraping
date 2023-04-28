@@ -1,7 +1,6 @@
 
 from fastapi import FastAPI
 import urllib.parse
-import re
 import requests
 from bs4 import BeautifulSoup
 from pprint import pprint
